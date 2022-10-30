@@ -213,6 +213,7 @@ class _SignUpState extends State<SignUp> {
                               email1: email.text.toString(),
                               name: Colors.deepOrangeAccent,
                               Name2: Name.text.toString(),
+                              test: 'yes',
                             );
                           },
                         ));

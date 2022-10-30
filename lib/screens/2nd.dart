@@ -23,18 +23,19 @@ class Seondpage extends StatelessWidget {
                 children: [
                   Text(
                     'Name',
-                    style: TextStyle(fontSize: 44, color: Colors.black12),
                   ),
                   SizedBox(
                     width: 33,
                   ),
-                  Text('Email',
-                      style: TextStyle(fontSize: 44, color: Colors.black12)),
+                  Text(
+                    'Email',
+                  ),
                   SizedBox(
                     width: 33,
                   ),
-                  Text('the state',
-                      style: TextStyle(fontSize: 44, color: Colors.black12)),
+                  Text(
+                    'the state',
+                  ),
                 ],
               ),
               Column(

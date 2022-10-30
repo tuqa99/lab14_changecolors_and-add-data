@@ -213,8 +213,9 @@ class _LoginPageState extends State<LoginPage> {
                         builder: (context) {
                           return FirstScreen(
                             email1: email.text.toString(),
-                            name: Color.fromARGB(255, 172, 162, 33),
+                            name: null,
                             Name2: Name.text.toString(),
+                            test: 'true',
                           );
                         },
                       ));
